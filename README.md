@@ -1,6 +1,6 @@
 # Master Channel
 
-KDE Plazma widget alfor changing Master Channel, changes pulse audio
+KDE Plasma widget alfor changing Master Channel, changes pulse audio
 default channel, changes currently playing sink inputs (sounds) to the
 new channel and sets `kmix` Master Channel.
 
