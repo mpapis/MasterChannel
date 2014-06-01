@@ -6,11 +6,19 @@ new channel and sets `kmix` Master Channel.
 
 ## Installation
 
-TODO...
+    curl -LO https://github.com/mpapis/MasterChannel/archive/master.tar.gz
+    tar xzf master.tgz
+    plasmapkg -i MasterChannel-master
 
-## Configurations
+## Requirements
 
-to prevent reseting playbacks to wrong channels after setting new
+- `RubyQt`
+- installed `pacmd` command
+- running `dbus` is required for `kmix` interaction
+
+## Extra configurations
+
+To prevent reseting playbacks to wrong channels after setting new
 default - `module-stream-restore restore_device=false` has to be set in
 `/etc/pulse/default.pa`:
 
@@ -19,8 +27,6 @@ default - `module-stream-restore restore_device=false` has to be set in
 In case `load-module module-stream-restore` was already there - only
 update the line.
 
-## Requirements
+# Uninstallation
 
-- `RubyQt`
-- installed `pacmd` command
-- running `dbus` is required for `kmix`
+    plasmapkg -i MasterChannel
