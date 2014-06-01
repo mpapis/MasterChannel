@@ -1,0 +1,20 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Master Channel
+Type=Service
+ServiceTypes=Plasma/Applet
+Icon=chronometer
+
+X-Plasma-API=ruby-script
+X-Plasma-MainScript=code/main.rb
+X-Plasma-DefautSize=50,50
+
+X-KDE-PluginInfo-Author=Michał Papis
+X-KDE-PluginInfo-Email=mpapis@gmail.com
+X-KDE-PluginInfo-Name=MasterChannel
+X-KDE-PluginInfo-Version=1.0
+X-KDE-PluginInfo-Website=http://github.com/mpapis/MasterChannel/
+X-KDE-PluginInfo-Category=Multimedia
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=AGPL
+X-KDE-PluginInfo-EnabledByDefault=true
