@@ -30,3 +30,6 @@ update the line.
 # Uninstallation
 
     plasmapkg -i MasterChannel
+
+---
+Copyright 2014 Michal Papis <mpapis@gmail.com>
