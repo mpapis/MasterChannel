@@ -7,7 +7,6 @@ Icon=chronometer
 
 X-Plasma-API=ruby-script
 X-Plasma-MainScript=code/main.rb
-X-Plasma-DefautSize=50,50
 
 X-KDE-PluginInfo-Author=Michał Papis
 X-KDE-PluginInfo-Email=mpapis@gmail.com

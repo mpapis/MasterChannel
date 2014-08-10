@@ -28,7 +28,7 @@ module MasterChannel
     end
 
     def short_name
-      name.gsub(/alsa_output./,'')[0..40]
+      name.gsub(/alsa_output./,'')
     end
 
     def to_s
