@@ -35,7 +35,7 @@ update the line.
 
 1. Clone the repository
 2. Apply changes
-3. Test it: `plasmapkg -r MasterChannel; plasmapkg -i .`
+3. Test it: `plasmapkg -u .`
 4. open a pull request with changes
 
 ---
