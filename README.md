@@ -31,5 +31,12 @@ update the line.
 
     plasmapkg -r MasterChannel
 
+# Development
+
+1. Clone the repository
+2. Apply changes
+3. Test it: `plasmapkg -r MasterChannel; plasmapkg -i .`
+4. open a pull request with changes
+
 ---
 Copyright 2014 Michal Papis <mpapis@gmail.com>
