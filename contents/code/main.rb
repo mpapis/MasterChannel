@@ -35,7 +35,7 @@ module MasterChannel
       @label = Plasma::Label.new self
       @label.setAlignment(Qt::AlignTop | Qt::AlignLeft)
       @label.setWordWrap(true)
-      @label.maximumWidth = 150
+      @label.maximumWidth = 100
       layout.add_item @label
 
       @pulseaudio = Pulseaudio.new
